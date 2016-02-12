@@ -25,5 +25,5 @@ docker run -d -P ryanratcliff/redis
 
 ### To startup with specific port exposed
 ```
-docker run -d p 6379:6379 ryanratcliff/redis
+docker run -d -p 6379:6379 ryanratcliff/redis
 ```
